@@ -26,7 +26,7 @@ management:
       show-details: always
 info:
   author: Victor Leão
-  mail: contato@victorleao.dev.br
+  mail: leaovic@gmail.com
 server:
   port: ${PORT:9999}
 message: Mensagem generica
