@@ -7,8 +7,12 @@ spring:
         - id: catalogRoute
           uri: lb://CATALOG-SERVICE
           predicates:
-            - Path=/catalog/**
+            - Path=/catalog-api/**
         - id: movieRoute
           uri: lb://MOVIE-SERVICE
           predicates:
-            - Path=/movie/**tom-course-response-header
+            - Path=/movie-api/**
+        - id: serieRoute
+          uri: lb://SERIE-SERVICE
+          predicates:
+            - Path=/serie-api/**
